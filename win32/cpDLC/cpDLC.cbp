@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpDLC" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/cpDLC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/cpDLC" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Windows/System32/ws2_32.dll" />
+		</Linker>
+		<Unit filename="../../cpdlc/cJSON/cJSON.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cpdlc/cJSON/cJSON.h" />
+		<Unit filename="../../cpdlc/cpdlc/dlcpNet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cpdlc/cpdlc/dlcpNet.h" />
+		<Unit filename="../../cpdlc/cpdlc/dlcpfunc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cpdlc/cpdlc/dlcpfunc.h" />
+		<Unit filename="../../cpdlc/cpdlc/dlcpstring.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cpdlc/cpdlc/dlcpstring.h" />
+		<Unit filename="../../cpdlc/cpdlc/dllog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cpdlc/cpdlc/dllog.h" />
+		<Unit filename="../../cpdlc/dlobject/DLObject.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cpdlc/dlobject/DLObject.h" />
+		<Unit filename="../../cpdlc/dlperson/DLPerson.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../cpdlc/dlperson/DLPerson.h" />
+		<Unit filename="../../testcpdlc/testcjson.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testcpdlc/testcjson.h" />
+		<Unit filename="../../testcpdlc/testcpdlc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testcpdlc/testcpdlc.h" />
+		<Unit filename="../../testcpdlc/testdlcpNet.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testcpdlc/testdlcpNet.h" />
+		<Unit filename="../../testcpdlc/testdllog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testcpdlc/testdllog.h" />
+		<Unit filename="../../testcpdlc/testdlobject.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../testcpdlc/testdlobject.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,351 @@
+# depslib dependency file v1.0
+1465034759 source:d:\code\crossplat\crossplatdlc\win32\cpdlc\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1464832546 source:d:\code\crossplat\crossplatdlc\cpdlc\dlcpfunc.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dlcpfunc.h"
+
+1464780153 d:\code\crossplat\crossplatdlc\cpdlc\dlcpfunc.h
+	<stdio.h>
+
+1464778199 source:d:\code\crossplat\crossplatdlc\cpdlc\dllog.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dllog.h"
+	"dlcpfunc.h"
+
+1463992133 d:\code\crossplat\crossplatdlc\cpdlc\dllog.h
+
+1464950495 source:d:\code\crossplat\crossplatdlc\testcpdlc\testdllog.c
+	"../cpdlc/cpdlc/dllog.h"
+	"../cpdlc/cpdlc/dlcpstring.h"
+
+1464915777 source:d:\code\crossplat\crossplatdlc\cpdlc\cjson\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1464915777 d:\code\crossplat\crossplatdlc\cpdlc\cjson\cjson.h
+
+1464916809 source:d:\code\crossplat\crossplatdlc\testcpdlc\testcjson.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/cJSON/cJSON.h"
+
+1464950495 source:d:\code\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpfunc.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dlcpfunc.h"
+
+1464951036 d:\code\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpfunc.h
+
+1464947627 source:d:\code\crossplat\crossplatdlc\cpdlc\cpdlc\dllog.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dllog.h"
+	"dlcpfunc.h"
+
+1464947627 d:\code\crossplat\crossplatdlc\cpdlc\cpdlc\dllog.h
+
+1464950495 d:\code\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpstring.h
+
+1464951036 source:d:\code\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpstring.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	"dlcpstring.h"
+
+1465038564 source:d:\code\crossplat\crossplatdlc\testcpdlc\testcpdlc.c
+	<stdio.h>
+	"testdllog.h"
+	"testcjson.h"
+	"testcpdlc.h"
+	"../cpdlc/dlobject/DLObject.h"
+
+1464950495 d:\code\crossplat\crossplatdlc\testcpdlc\testdllog.h
+
+1465033453 d:\code\crossplat\crossplatdlc\testcpdlc\testcpdlc.h
+
+1464916809 d:\code\crossplat\crossplatdlc\testcpdlc\testcjson.h
+	"../cpdlc/cJSON/cJSON.h"
+
+1464951036 d:\code\crossplat\crossplatdlc\cpdlc\dlobject\dlobject.h
+
+1464952629 source:d:\code\crossplat\crossplatdlc\cpdlc\dlobject\dlobject.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/dllog.h"
+	"../cpdlc/dlcpstring.h"
+	"DLObject.h"
+
+1465040437 source:d:\code\crossplat\crossplatdlc\cpdlc\dlperson\dlperson.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/dllog.h"
+	"DLPerson.h"
+
+1465040437 d:\code\crossplat\crossplatdlc\cpdlc\dlperson\dlperson.h
+	"../dlobject/DLObject.h"
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\cpdlc\cjson\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\cpdlc\cjson\cjson.h
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpfunc.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dlcpfunc.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpfunc.h
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpstring.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	"dlcpstring.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\cpdlc\cpdlc\dlcpstring.h
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\cpdlc\cpdlc\dllog.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dllog.h"
+	"dlcpfunc.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\cpdlc\cpdlc\dllog.h
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\cpdlc\dlobject\dlobject.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/dllog.h"
+	"../cpdlc/dlcpstring.h"
+	"DLObject.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\cpdlc\dlobject\dlobject.h
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\cpdlc\dlperson\dlperson.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/dllog.h"
+	"DLPerson.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\cpdlc\dlperson\dlperson.h
+	"../dlobject/DLObject.h"
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\testcpdlc\testcjson.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/cJSON/cJSON.h"
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\testcpdlc\testcpdlc.c
+	<stdio.h>
+	"testdllog.h"
+	"testcjson.h"
+	"testcpdlc.h"
+	"testdlobject.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\testcpdlc\testdllog.h
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\testcpdlc\testcjson.h
+	"../cpdlc/cJSON/cJSON.h"
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\testcpdlc\testcpdlc.h
+
+1465104579 c:\users\123456\crossplat\crossplatdlc\testcpdlc\testdlobject.h
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\testcpdlc\testdllog.c
+	"../cpdlc/cpdlc/dllog.h"
+	"../cpdlc/cpdlc/dlcpstring.h"
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\testcpdlc\testdlobject.c
+	<stdio.h>
+	"../cpdlc/dlobject/DLObject.h"
+	"../cpdlc/dlperson/DLPerson.h"
+	"testdlobject.h"
+
+1465104579 source:c:\users\123456\crossplat\crossplatdlc\win32\cpdlc\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cjson\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cjson\cjson.h
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dlcpfunc.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dlcpfunc.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dlcpfunc.h
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dlcpstring.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<string.h>
+	"dlcpstring.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dlcpstring.h
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dllog.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<errno.h>
+	<stdarg.h>
+	<dirent.h>
+	<sys/stat.h>
+	<string.h>
+	"dllog.h"
+	"dlcpfunc.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dllog.h
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\dlobject\dlobject.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/dllog.h"
+	"../cpdlc/dlcpstring.h"
+	"DLObject.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\dlobject\dlobject.h
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\dlperson\dlperson.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/dllog.h"
+	"DLPerson.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\dlperson\dlperson.h
+	"../dlobject/DLObject.h"
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testcjson.c
+	<stdio.h>
+	<stdlib.h>
+	"../cpdlc/cJSON/cJSON.h"
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testdllog.c
+	"../cpdlc/cpdlc/dllog.h"
+	"../cpdlc/cpdlc/dlcpstring.h"
+
+1465975226 source:c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testdlobject.c
+	<stdio.h>
+	"../cpdlc/dlobject/DLObject.h"
+	"../cpdlc/dlperson/DLPerson.h"
+	"testdlobject.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testdlobject.h
+
+1468730926 source:c:\users\darren\code\crossplatdlc\crossplatdlc\win32\cpdlc\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1468598812 source:c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testcpdlc.c
+	<stdio.h>
+	"testdllog.h"
+	"testcjson.h"
+	"testcpdlc.h"
+	"testdlobject.h"
+	"testdlcpNet.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testdllog.h
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testcjson.h
+	"../cpdlc/cJSON/cJSON.h"
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testcpdlc.h
+
+1465975226 c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testdlclient.h
+
+1468737792 source:c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dlcpnet.c
+	<winsock2.h>
+	<stdlib.h>
+	<errno.h>
+	<string.h>
+	<stdarg.h>
+	<netdb.h>
+	<sys/types.h>
+	<sys/socket.h>
+	"../cpdlc/dllog.h"
+	"../cpdlc/dlcpstring.h"
+	"../cJSON/cJSON.h"
+	<stdio.h>
+	"dllog.h"
+
+1468598812 c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testdlcpnet.h
+
+1469187581 source:c:\users\darren\code\crossplatdlc\crossplatdlc\testcpdlc\testdlcpnet.c
+	"testdlcpNet.h"
+	"../cpdlc/cpdlc/dlcpNet.h"
+	"../cpdlc/cpdlc/dllog.h"
+
+1468735948 c:\users\darren\code\crossplatdlc\crossplatdlc\cpdlc\cpdlc\dlcpnet.h
+
